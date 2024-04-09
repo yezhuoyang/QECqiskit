@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class TannerGraph:
 
     def __init__(self,qubitnum:int,stabilizernum:int,xchecknum:int,zchecknum:int):
@@ -34,4 +33,8 @@ class TannerGraph:
         pass
 
     def print_Hmatrix(self):
+        pass
+
+
+    def syndrome_table(self):
         pass
