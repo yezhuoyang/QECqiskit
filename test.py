@@ -7,6 +7,10 @@ from Surface.surface import surfacecode
 
 
 if __name__ == '__main__':
-    suface_code=surfacecode(81)
+    suface_code=surfacecode(25)
+    
+    suface_code.add_error(0,0)
+    
+    suface_code.add_error(3,3)
     
     suface_code.display_qubit_layout()
